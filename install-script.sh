@@ -44,5 +44,9 @@ echo "Instalando plugins do gedit..."
 apt-get -qq install gedit-developer-plugins gedit-plugins
 clear
 
+echo "Instalando ferramenta de backup Déjà Dup..."
+apt-get -qq install deja-dup
+clear
+
 echo "Instalação finalizada."
 exit
