@@ -37,5 +37,12 @@ apt-get -qq install mysql-client mysql-server phpmyadmin
 clear
 
 echo "Instalando PostgreSQL..."
-apt-get -qq install postgresql-client postgresql postgresql-contrib
+apt-get -qq install postgresql-client postgresql postgresql-contrib pgadmin3
 clear
+
+echo "Instalando plugins do gedit..."
+apt-get -qq install gedit-developer-plugins gedit-plugins
+clear
+
+echo "Instalação finalizada."
+exit
