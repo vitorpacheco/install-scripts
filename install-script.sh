@@ -58,5 +58,9 @@ echo "Instalando o Java..."
 apt-get -qq install sun-java6-jdk sun-java6-jre sun-java6-bin sun-java6-fonts sun-java6-plugin
 clear
 
+echo "Instalando o Samba..."
+apt-get -qq install samba samba-doc samba-common samba-common-bin 
+clear
+
 echo "Instalação finalizada."
 exit
