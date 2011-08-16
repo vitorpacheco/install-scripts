@@ -1,0 +1,24 @@
+Install Scripts
+===============
+
+Scripts para a atualização e instalação de alguns dos principais aplicativos ao Ubuntu.
+
+Instalação
+----------
+
+Para fazer o download do script, execute:
+
+	wget http://raw.github.com/vitorpc/install-scripts/master/install-script.sh
+
+Para executá-lo dê a permissão de execução:
+
+	chmod a+x install-script.sh
+
+E por último é necessário executar o script com os poderes do super usuário:
+
+	sudo ./install-script.sh
+
+Requerimentos
+-------------
+
+Testado apenas no Ubuntu 11.04.
