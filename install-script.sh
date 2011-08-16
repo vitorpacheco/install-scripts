@@ -17,7 +17,7 @@ apt-get -qq install rar unrar p7zip-rar p7zip-full zip unzip file-roller
 clear
 
 echo "Instalando o Git..."
-apt-get -qq install git qgit gitk git-gui git-doc git-core gitman
+apt-get -qq install git qgit gitk git-gui git-doc git-core gi-tman
 clear
 
 echo "Instalando o Apache..."
@@ -43,6 +43,11 @@ clear
 echo "Instalando plugins do gedit..."
 apt-get -qq install gedit-developer-plugins gedit-plugins
 clear
+
+echo "Instalando o Adobe Flash Plugin"
+apt-get -aa install adobe-flashplugin
+clear
+
 
 echo "Instalando ferramenta de backup Déjà Dup..."
 apt-get -qq install deja-dup
