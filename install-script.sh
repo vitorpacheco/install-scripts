@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+
 echo "Atualizando repositórios..."
 apt-get -qq update
 clear
@@ -44,12 +46,16 @@ echo "Instalando plugins do gedit..."
 apt-get -qq install gedit-developer-plugins gedit-plugins
 clear
 
-echo "Instalando o Adobe Flash Plugin"
+echo "Instalando o Adobe Flash Plugin..."
 apt-get -qq install adobe-flashplugin
 clear
 
 echo "Instalando ferramenta de backup Déjà Dup..."
 apt-get -qq install deja-dup
+clear
+
+echo "Instalando o Java..."
+apt-get -qq install sun-java6-jdk sun-java6-jre sun-java6-bin sun-java6-fonts sun-java6-plugin
 clear
 
 echo "Instalação finalizada."
