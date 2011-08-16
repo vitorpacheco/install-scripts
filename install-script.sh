@@ -45,9 +45,8 @@ apt-get -qq install gedit-developer-plugins gedit-plugins
 clear
 
 echo "Instalando o Adobe Flash Plugin"
-apt-get -aa install adobe-flashplugin
+apt-get -qq install adobe-flashplugin
 clear
-
 
 echo "Instalando ferramenta de backup Déjà Dup..."
 apt-get -qq install deja-dup
