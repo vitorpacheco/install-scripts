@@ -24,6 +24,8 @@ clear
 
 echo "Instalando o Apache..."
 apt-get -qq install apache2 apache2-doc
+a2enmod rewrite actions
+apachectl restart
 clear
 
 echo "Instalando PHP 5..."
