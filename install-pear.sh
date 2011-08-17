@@ -9,6 +9,13 @@ pear upgrade
 clear
 
 echo "------------------------------------------------------------------------"
+echo "Instalando o Xdebug..."
+pecl install xdebug
+touch /etc/php5/conf.d/xdebug.ini
+echo zend_extension="/usr/lib/php5/20090626+lfs/xdebug.so" >> /etc/php5/conf.d/xdebug.ini
+clear
+
+echo "------------------------------------------------------------------------"
 echo "Iniciando a instalação do PHPUnit..."
 echo "Adicionando os canais necessários..."
 pear channel-discover pear.phpunit.de
