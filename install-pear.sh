@@ -12,7 +12,7 @@ echo "------------------------------------------------------------------------"
 echo "Instalando o Xdebug..."
 pecl install xdebug
 touch /etc/php5/conf.d/xdebug.ini
-echo zend_extension="/usr/lib/php5/20090626+lfs/xdebug.so" >> /etc/php5/conf.d/xdebug.ini
+echo zend_extension="/usr/lib/php5/20090626+lfs/xdebug.so" > /etc/php5/conf.d/xdebug.ini
 clear
 
 echo "------------------------------------------------------------------------"
@@ -23,32 +23,27 @@ pear channel-discover components.ez.no
 pear channel-discover pear.symfony-project.com
 
 echo "Instalando o PHPUnit e suas dependências..."
-pear install -a -s phpunit/PHPUnit
+pear install -a phpunit/PHPUnit
 clear
 
 echo "------------------------------------------------------------------------"
 echo "Instalando o PHPDocumentor..."
-pear install -a -s PhpDocumentor
+pear install -a PhpDocumentor
 clear
 
 echo "------------------------------------------------------------------------"
 echo "Instalando o PHP_CodeSniffer..."
-pear install -a -s PHP_CodeSniffer
+pear install -a PHP_CodeSniffer
 clear
 
 echo "------------------------------------------------------------------------"
 echo "Instalando o PHP_Beautifier..."
-pear install -a -s PHP_Beautifier
-clear
-
-echo "------------------------------------------------------------------------"
-echo "Instalando o XML_Beautifier..."
-pear install -a -s XML_Beautifier
+pear install -a PHP_Beautifier-beta
 clear
 
 echo "------------------------------------------------------------------------"
 echo "Instalando o Image_QRCode..."
-pear install -a -s Image_QRCode
+pear install -a Image_QRCode-alpha
 clear
 
 echo "Instalação finalizada."
