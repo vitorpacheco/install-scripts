@@ -27,7 +27,7 @@ apt-get -qq install apache2 apache2-doc
 clear
 
 echo "Instalando PHP 5..."
-apt-get -qq install php5 php5-cli php5-dev php-pear php5-gd php5-curl php5-xsl php5-xmlrpc php5-pgsql php5-sqlite php5-mysql libapache2-mod-php5
+apt-get -qq install php5 php5-cli php5-cgi php5-dev php-pear php5-gd php5-curl php5-xsl php5-xmlrpc php5-pgsql php5-sqlite php5-mysql libapache2-mod-php5
 clear
 
 echo "Instalando MySQL 5..."
