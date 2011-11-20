@@ -19,7 +19,7 @@ apt-get -qq install rar unrar p7zip-rar p7zip-full zip unzip file-roller
 clear
 
 echo "Instalando o Git..."
-apt-get -qq install git qgit gitk git-gui git-doc git-core gi-tman
+apt-get -qq install git qgit gitk git-gui git-doc git-core git-man
 clear
 
 echo "Instalando o Apache..."
