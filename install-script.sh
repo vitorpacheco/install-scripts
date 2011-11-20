@@ -36,8 +36,8 @@ echo "Instalando MySQL 5..."
 apt-get -qq install mysql-client mysql-server
 clear
 
-echo "Instalando MySQL 5 e PHPMyAdmin..."
-apt-get -qq install mysql-client mysql-server phpmyadmin
+echo "Instalando PHPMyAdmin..."
+apt-get -qq install phpmyadmin
 clear
 
 echo "Instalando PostgreSQL..."
